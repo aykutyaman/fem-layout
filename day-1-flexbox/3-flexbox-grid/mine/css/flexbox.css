@@ -58,6 +58,15 @@ div img {
     background-color: #cf0;
 }
 
+[class*="col-"] {
+    display: flex;
+    padding: 0 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #D0D0D0;
+    border-radius: 4px;
+}
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
