@@ -2,7 +2,6 @@
 .wrapper {
     width: 633px;
     height: 458px;
-
     background-color: black;
     display: grid;
     grid-gap: 10px;
@@ -69,12 +68,9 @@ div {
     background-color: yellow;   
 }
 
-
-
-
-
-
-
-
-
-
+@media (max-width: 749px) {
+    .wrapper {
+	display: block;
+	background-color: orange;
+    }
+}
